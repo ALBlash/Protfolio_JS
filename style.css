@@ -1,3 +1,28 @@
+* {
+
+    /* Width of the scrollbar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track (the background) */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle (the draggable part) */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
@@ -289,7 +314,7 @@ ul {
         color: black;
     }
 
-    #bottom {
+    .bottom {
         margin-bottom: 15px;
         margin-right: 0;
     }
@@ -812,7 +837,7 @@ ul {
         color: black;
     }
 
-    #bottom {
+    .bottom {
         margin-bottom: 15px;
         margin-right: 0;
     }
@@ -1006,6 +1031,7 @@ ul {
     .row3 {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
 
@@ -1295,7 +1321,7 @@ ul {
         color: black;
     }
 
-    #bottom {
+    .bottom {
         margin-bottom: 15px;
         margin-right: 0;
     }
@@ -1459,13 +1485,14 @@ ul {
         display: flex;
         flex-direction: column;
         gap: 5px;
+        flex-wrap: wrap;
     }
 
     .row1 {
         margin-top: 30px;
         display: flex;
-        justify-content: center;
-        gap: 50px;
+        justify-content: space-evenly;
+        /* gap: 50px; */
     }
 
     .logo {
@@ -1477,14 +1504,14 @@ ul {
 
     .row2 {
         display: flex;
-        justify-content: center;
-        gap: 60px;
+        justify-content: space-evenly;
+        /* gap: 21px; */
     }
 
     .row3 {
         display: flex;
-        justify-content: center;
-        gap: 40px;
+        justify-content: space-evenly;
+        /* gap: 40px; */
     }
 
     .rights {
@@ -1763,7 +1790,7 @@ ul {
         color: black;
     }
 
-    #bottom {
+    .bottom {
         margin-bottom: 15px;
         margin-right: 0;
     }
