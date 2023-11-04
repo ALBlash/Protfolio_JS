@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(237, 231, 231);
+}
+
 * {
 
     /* Width of the scrollbar */
@@ -33,9 +37,6 @@ ul {
 }
 
 @media screen and (min-width:900px) {
-    body {
-        background-color: rgb(237, 231, 231);
-    }
 
     /*Header*/
 
@@ -1049,9 +1050,7 @@ ul {
 }
 
 @media screen and (min-width:400px) and (max-width:600px) {
-    body {
-        background-color: rgb(237, 231, 231);
-    }
+
 
     .navbar {
         background-color: rgb(237, 231, 231, 55%) !important;
@@ -1528,9 +1527,7 @@ ul {
 }
 
 @media screen and (max-width:400px) {
-    body {
-        background-color: rgb(237, 231, 231);
-    }
+
 
     .navbar {
         background-color: rgb(237, 231, 231, 55%) !important;
